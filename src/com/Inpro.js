@@ -13,21 +13,29 @@ export default function inpro() {
             <div className = "Table">
             <table class='table  table-striped'>
             <tr>
-                <td class="td1 ">ชื่อ : </td>
+                <td class="td1 ">รหัสสินค้า : </td>
                 <td class="td2"><input type="text" name="slip_name" size="30" required></input></td>
             </tr>
             <tr>
-                <td class="td1">วันที่โอน : </td>
+                <td class="td1">ชื่อสินค้า : </td>
                 <td class="td2"><input type="date" name="slip_date" size="30" required></input></td>
             </tr>
 
             <tr>
-                <td class="td1">จำนวนเงินที่โอน : </td>
+                <td class="td1">ต้นทุน : </td>
                 <td class="td2"><input type="text" name="slip_total" size="30" required></input></td>
             </tr>
             <tr>
-                <td class="td1">หมายเลขคำสั่งซื้อ : </td>
+                <td class="td1">ราคา :  </td>
                 <td class="td2"><input type="text" name="sale_id" size="30" required></input></td>
+            </tr>
+            <tr>
+            <td class="td1">จำนวนคงเหลือ : </td>
+                <td class="td2"><input type="file" name="slip_img" accept="image/*" required></input></td>
+            </tr>
+            <tr>
+            <td class="td1">ขนาด : </td>
+                <td class="td2"><input type="file" name="slip_img" accept="image/*" required></input></td>
             </tr>
             <tr>
             <td class="td1">รูป : </td>
