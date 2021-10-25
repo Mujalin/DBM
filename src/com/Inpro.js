@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/In.css'
 import '../css/font.css'
+import { Link } from "react-router-dom";
 export default function inpro() {
     
     return (
